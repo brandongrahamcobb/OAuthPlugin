@@ -189,7 +189,6 @@ UserManager um = new UserManager(db);
 - `createUser(...)` → Asynchronously upsert a user record.  
 - `cacheUser(User)` → Cache a User instance for quick lookups.  
 - `getUserByDiscordId(long)` / `getUserByPatreonId(long)` / `getUserByMinecraftId(String)` → Retrieve cached or return `null`.  
-- `consolidateUsers()` → Merge duplicate database rows.
 
 ### User Interfaces
 
